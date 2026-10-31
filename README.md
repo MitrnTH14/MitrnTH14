@@ -71,13 +71,6 @@ now    : moving deeper into VLSI front-end — design + verification
 - **NSIC** — IoT Systems Intern (Jun – Jul 2025): Raspberry Pi–based IoT work.
 - **1M1B** — AI Solutions Intern (virtual).
 
-## 🔬 Currently Working On
-
-- Getting stronger at SystemVerilog verification — constrained-random stimulus, assertions, coverage.
-- Building toward a dual-clock asynchronous FIFO in Verilog.
-- Final-year project on RGB-IR detection.
-- Preparing for CCNA 200-301.
-
 ## 🤝 Connect
 
 - 📧 `rsmitrn@gmail.com`

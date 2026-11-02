@@ -62,9 +62,6 @@ now    : moving deeper into VLSI front-end
 ![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=flat-square&logo=opencv&logoColor=22D3EE)
 ![Google Colab](https://img.shields.io/badge/Colab-0d1117?style=flat-square&logo=googlecolab&logoColor=22D3EE)
 
-### Networking
-![Cisco Packet Tracer](https://img.shields.io/badge/Packet%20Tracer-0d1117?style=flat-square&logo=cisco&logoColor=22D3EE)
-
 ## 📡 Experience
 
 - **Sundram Fasteners** — Industrial Vision Intern (Dec 2025 – Jan 2026): OpenCV-based thread defect detection.

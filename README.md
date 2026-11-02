@@ -3,7 +3,7 @@
 <p align="center"><b>ECE Undergrad · Digital Design & Verification · Embedded Systems · Computer Vision</b></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=560&lines=Writing+RTL+in+Verilog+%26+SystemVerilog;Building+testbenches+that+catch+bugs;Embedded+%2B+vision+projects+on+real+hardware" alt="Typing animation of focus areas" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=560&lines=Writing+RTL+in+Verilog+%26+SystemVerilog;Self-checking+testbenches+with+planted+bugs;Learning+VLSI+front-end%2C+one+block+at+a+time" alt="Typing animation of focus areas" />
 </p>
 
 <p align="center">
@@ -18,34 +18,34 @@
 └──$ whoami --verbose
 role   : final-year B.E. ECE @ Easwari Engineering College, Chennai (2023–2027)
 focus  : RTL design & verification, embedded systems, computer vision
-now    : moving deeper into VLSI front-end — design + verification
+now    : moving deeper into VLSI front-end
 ```
 
 ## 🔭 About
 
 - 🎓 Final-year Electronics & Communication Engineering student, Easwari Engineering College (CGPA 8.52).
-- 🔌 Working where hardware meets software: Verilog/SystemVerilog RTL, microcontroller-based IoT, and vision/ML pipelines.
-- 🧪 Currently focused on digital design and verification — writing RTL, building SystemVerilog testbenches, and running simulations on EDA Playground.
+- 🔌 Interested in where hardware meets software: Verilog/SystemVerilog RTL, microcontroller-based IoT, and computer vision.
+- 🧪 Current focus is digital design and verification: writing RTL, building self-checking testbenches, and simulating on EDA Playground.
 - ☕ Oracle Certified Professional: Java SE 17 Developer.
 
 ## ⚙️ Projects
 
 | Area | Project | What it does |
 |------|---------|--------------|
-| `RTL / DV` | [Synchronous-FIFO-SystemVerilog](https://github.com/MitrnTH14/Synchronous-FIFO-SystemVerilog) | Synchronous FIFO with a class-based SystemVerilog testbench, SVA assertions, and functional coverage. |
-| `RTL` | [UART-Transmitter-Receiver-Verilog](https://github.com/MitrnTH14/UART-Transmitter-Receiver-Verilog) | UART transmitter and receiver written in Verilog and verified in simulation. |
+| `RTL / Verification` | [Synchronous-FIFO-SystemVerilog](https://github.com/MitrnTH14/Synchronous-FIFO-SystemVerilog) | Parameterized single-clock FIFO with full/empty flags and overflow/underflow protection. Self-checking SystemVerilog testbench with a queue-based reference model, two flag assertions, and a compile-time planted bug to prove the testbench catches errors. |
+| `RTL / Verification` | [UART-Transmitter-Receiver-Verilog](https://github.com/MitrnTH14/UART-Transmitter-Receiver-Verilog) | 8N1 UART TX/RX in Verilog: FSM-based transmitter, receiver with a 2-FF synchronizer, centre-of-bit sampling, framing-error and glitch detection. Self-checking testbench tests TX and RX separately plus loopback. |
 | `Embedded / IoT` | AIRiSense Cloud | Indoor air-quality monitor on ESP32-C6 (RISC-V) with MOS gas-sensor calibration and TinyML. Patent filing in progress through my college. |
 | `Software` | Java Password Security Analyzer | Java tool that evaluates password strength. |
-| `Computer Vision` | C²Former / HILLENet experiments | Replicated HILLENet (thermal-guided low-light enhancement) in Colab and experimented with thermal-reliability extensions; RGB-IR fusion work built on C²Former. |
+| `Computer Vision` | HILLENet replication | Re-implemented HILLENet (thermal-guided low-light enhancement) in Colab and experimented with thermal-reliability extensions. |
 
 ## 🧰 Toolkit
 
 ### Hardware Description & Verification
-![Verilog](https://img.shields.io/badge/Verilog-0d1117?style=flat-square&logoColor=22D3EE)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-0d1117?style=flat-square&logoColor=22D3EE)
+![Verilog](https://img.shields.io/badge/Verilog-0d1117?style=flat-square)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-0d1117?style=flat-square)
 ![EDA Playground](https://img.shields.io/badge/EDA%20Playground-0d1117?style=flat-square)
 
-`Testbenches` `SVA` `Functional Coverage`
+`FSM design` `Self-checking testbenches` `Reference models` `Bug injection`
 
 ### Languages
 ![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22D3EE)
